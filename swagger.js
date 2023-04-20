@@ -36,3 +36,5 @@ module.exports = app => {
         swaggerUi.setup(specs)
     );
 }
+
+//Link para teste do swagger: http://localhost:3000/api-docs/#/Turma

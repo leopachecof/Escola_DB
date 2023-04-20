@@ -25,15 +25,5 @@ const Turma = connection.define("turma", {
   },
 });
 
-// Relação professor e turma (1:1)
-// Associação 1:1 (One-to-One)
-// const Professor = require("./professor");
-
-// Cliente tem um Endereço
-// Endereço ganha uma chave estrangeira (nome do model + Id)
-// Chave estrangeira = clienteId
-// Turma.hasOne(Professor, { onDelete: "CASCADE" });
-
-// Professor.belongsTo(Turma); // Endereço pertence a um Cliente
 
 module.exports = Turma;
